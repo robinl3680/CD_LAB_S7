@@ -5,6 +5,12 @@ In read me am just incuding the files for an interpreter that we made for a give
 The grammar is
 
 
+
+{
+
+
+
+
 Pro : PROG declarations
 	  BEG command_sequence END
 
@@ -28,12 +34,7 @@ command : IDENTI EQUAL expression
 	command_sequence ELSE 
 	command_sequence EIF	
 	|
-	WHILE
-							
-	 expression DO 
-							
-	command_sequence	
-							
+	WHILE expression DO command_sequence	
 	EWHILE
 	|
 	READ IDENTI	
@@ -61,3 +62,7 @@ expression : NUM
   
   
   where Terminals are represented by capital letters and non terminals are represented by small letters.
+  
+  
+  
+  }

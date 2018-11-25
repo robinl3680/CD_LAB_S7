@@ -1,0 +1,12 @@
+void main()
+{
+	int fact =1, i, n;
+	float x;
+	printf("\n Enter number");
+	scanf("%d",&n);
+	for(i =1;i<=n;i++)
+	{
+		fact= fact*i;
+	}
+	printf("factorial =%d, %f",fact,x);
+}

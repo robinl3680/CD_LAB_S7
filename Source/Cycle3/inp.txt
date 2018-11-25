@@ -1,0 +1,9 @@
+6
+5
+ETXFY
+E=TX
+X=+TX
+T=FY
+Y=*FY
+F=(E)
+F=id

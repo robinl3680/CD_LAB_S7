@@ -1,5 +1,7 @@
 # CD_LAB_S7
-Now just incuding the files for an interpreter that we made for a given input grammar.
+The source folder contains all the cycles that we did.
+The fifth cycle is a special one in which we are given with a grammer and have to create an interpreter for the grammer using lex and yacc in diffrent stages.
+In read me am just incuding the files for an interpreter that we made for a given input grammar.
 The grammar is
 
 
